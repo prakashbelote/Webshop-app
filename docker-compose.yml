@@ -19,7 +19,7 @@ services:
       - "DB_HOST=db"
       - "WEB_HOST=0.0.0.0"
     ports:
-      - "8080:8080"
+      - "9090:9090"
     command: java -jar app.jar
     depends_on:
       - db
